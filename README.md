@@ -1,7 +1,7 @@
 # Python Restaurant Order System (21)
 
 ## Description
-Python skills to build out a program that allows customers to place orders with a takeout restaurant, and receive an itemized receipt. utilize from your coding experience, specifically Python, will be conditionals, loops, functions, and list comprehension. Data used in this Challenge will be stored in a dictionary and a list of dictionaries.
+A program that allows customers to place orders with a takeout restaurant, and receive an itemized receipt. Utilizes conditionals, loops, functions, and list comprehension in python. Data used stored in a dictionary and a list of dictionaries.
 
 ## Table of Contents
 - [Installation](#installation)
