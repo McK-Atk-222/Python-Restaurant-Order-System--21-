@@ -111,12 +111,12 @@ def update_order(order_list, menu_selection, menu_items):
         # TODO: Check if the menu selection is in the menu items keys
         if menu_selection in menu_items.keys():
             # TODO: Store the item name as a variable
-            # item_name = menu_items.key
+            item_name = menu_items[menu_selection]["Item name"]
 
             # TODO: Ask the customer for the quantity of the menu item
             # TODO: Use the item name variable in the question
-            quantity = input(f"What quantity of {menu_selection} would you like? /n"
-                             + "(This will default to 1 if number is not entered)")
+            quantity = input(f"What quantity of {item_name} would you like? \n"
+                             + "(This will default to 1 if number is not entered): ")
 
             # TODO: Check if the quantity is a number, default to 1 if not
             if not quantity.isdigit():
