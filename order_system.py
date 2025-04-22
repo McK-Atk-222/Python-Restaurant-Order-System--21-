@@ -137,12 +137,12 @@ def update_order(order_list, menu_selection, menu_items):
         # TODO: When the user's input isn't valid, 
         # TODO: tell the customer that their input isn't valid
         else:
-            print ("Input not valid")
+            print ("Sorry, that number isn't an option.")
 
     # TODO: When the menu selection wasn't valid:
     # TODO: Print the menu selection and 
     # TODO: Tell the customer they didn't select a menu option
-            print (f"{menu_selection} /n" +
+            print (f"{menu_selection} \n" +
             "A menu option hasn't been selected")
     else:
         print (f"{menu_selection} was not a menu item")
